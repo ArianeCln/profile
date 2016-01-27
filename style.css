@@ -1,0 +1,96 @@
+/* fonts and colors */
+
+body{
+  background: #EFF1F3;
+  color: rgb(30, 30, 30);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat;
+}
+h1 {
+  font-size: 24px;
+  color: #002957;
+}
+h2 {
+  font-size: 20px;
+  color: rgb(50, 50, 50);
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+  color: rgb(70, 70, 70);
+}
+p {
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: #B0DAE2;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  width: 550px;
+  margin: 10px auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px #B3B3B3;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  background: white;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 50%;
+}
+
+.title-height{
+  line-height: 15px;
+  margin: 30px;
+}
+.title-height p {
+  font-size: 15px
+}
+
+.btn-blue {
+  background: #002957;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px #001e3f;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.list-inline a:hover {
+  color: #002957;
+}
+
+.text-left {
+  text-align: left;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.text-center{
+  text-align: justify;
+}
+.text-center a:hover {
+  color: #002957;
+}
