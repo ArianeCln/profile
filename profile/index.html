@@ -14,89 +14,105 @@
   </head>
 
   <body>
-    <div class="card-white">
-      <img class="img-circle" src="../images/Ariane_square.jpg" alt="Ariane Coulon">
-      <div class="title-height">
-        <h1>Ariane Coulon</h1>
-        <h2>Student @Le Wagon</h2>
-        <p>Le Wagon c'est cool</p>
-      </div>
-
-      <div>
-        <a class="btn-blue" href="http://lewagon.com">See for yourself</a>
-      </div>
-    </div>
-
-    <div class="card-white">
-      <ul class="list-inline">
-        <li>
-          <a href="https://www.facebook.com/ariane.coulon"><i class="fa fa-facebook"></i> Facebook</a>
-        </li>
-        <li>
-          <a href="https://de.linkedin.com/in/arianecoulon"><i class="fa fa-linkedin"></i> Linkedin</a>
-        </li>
-        <li>
-          <a href=""><i class="fa fa-twitter"></i> Twitter</a>
-        </li>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#summary"><i class="fa fa-info-circle"></i></a></li>
+        <li><a href="#social-network"><i class="fa fa-envelope-o"></i></a></li>
+        <li><a href="#favorite-movies"><i class="fa fa-film"></i></a></li>
+        <li><a href="#about"><i class="fa fa-question"></i></a></li>
       </ul>
     </div>
 
-    <div class="card-white">
-      <h2>My favorites movies</h2>
-      <table>
-        <tr>
-          <td>
-            <img src="../images/Godfather.jpg" alt="The Godfather">
-          </td>
-          <td class="text-left">
-            <h3>The Godfather</h3>
-            <p>
-              Popularly viewed as one of the best American films ever made, the multi-generational crime saga The Godfather is a touchstone of cinema: one of the most widely imitated, quoted, and lampooned movies of all time. Marlon Brando and Al Pacino star as Vito Corleone and his youngest son, Michael, respectively.
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="../images/Fargo.jpg" alt="Fargo">
-          </td>
-          <td class="text-left">
-            <h3>Fargo</h3>
-            <p>
-              A pregnant police chief is investigating a series of homicides across the frozen tundra. Against a sprawling Minnesota landscape, a car salesman hires two criminals to kidnap his wife. But when the scheme goes sour, and wood chippers get involved, the haphazard kidnapping plot turns deadly serious.
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="../images/Pulp_Fiction_cover.jpg" alt="Pulp Fiction">
-          </td>
-          <td class="text-left">
-            <h3>Pulp Fiction</h3>
-            <p>
-              Outrageously violent, time-twisting, and in love with language, Pulp Fiction was widely considered the most influential American movie of the 1990s. Director and co-screenwriter Quentin Tarantino synthesized such seemingly disparate traditions as the syncopated language of David Mamet.
-            </p>
-          </td>
-        </tr>
-      </table>
+
+    <div id="page-content">
+
+      <div class="card-white" id="summary">
+        <img class="img-circle" src="../images/Ariane_square.jpg" alt="Ariane Coulon">
+        <div class="title-height">
+          <h1>Ariane Coulon</h1>
+          <h2>Student @Le Wagon</h2>
+          <p>Le Wagon c'est cool</p>
+        </div>
+
+        <div>
+          <a class="btn-blue" href="http://lewagon.com">See for yourself</a>
+        </div>
+      </div>
+
+
+
+      <div class="card-white" id="social-network">
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.facebook.com/ariane.coulon"><i class="fa fa-facebook"></i> Facebook</a>
+          </li>
+          <li>
+            <a href="https://de.linkedin.com/in/arianecoulon"><i class="fa fa-linkedin"></i> Linkedin</a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-twitter"></i> Twitter</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-white" id="favorite-movies">
+        <h2>My favorites movies</h2>
+        <table>
+          <tr>
+            <td>
+              <img src="../images/Godfather.jpg" alt="The Godfather">
+            </td>
+            <td class="text-left">
+              <h3>The Godfather</h3>
+              <p>
+                Popularly viewed as one of the best American films ever made, the multi-generational crime saga The Godfather is a touchstone of cinema: one of the most widely imitated, quoted, and lampooned movies of all time. Marlon Brando and Al Pacino star as Vito Corleone and his youngest son, Michael, respectively.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../images/Fargo.jpg" alt="Fargo">
+            </td>
+            <td class="text-left">
+              <h3>Fargo</h3>
+              <p>
+                A pregnant police chief is investigating a series of homicides across the frozen tundra. Against a sprawling Minnesota landscape, a car salesman hires two criminals to kidnap his wife. But when the scheme goes sour, and wood chippers get involved, the haphazard kidnapping plot turns deadly serious.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="../images/Pulp_Fiction_cover.jpg" alt="Pulp Fiction">
+            </td>
+            <td class="text-left">
+              <h3>Pulp Fiction</h3>
+              <p>
+                Outrageously violent, time-twisting, and in love with language, Pulp Fiction was widely considered the most influential American movie of the 1990s. Director and co-screenwriter Quentin Tarantino synthesized such seemingly disparate traditions as the syncopated language of David Mamet.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card-white">
+        <h2>About this page</h2>
+        <p class="text-center">
+          This page has been coded during the <a href=""http://lewagon.com"">FullStack program @LeWagon.</a> That was probably the best experience of my entire life.
+        </p>
+
+        <ul class="list-inline" id="about">
+          <li>
+            <a href=""><i class="fa fa-star"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-heart"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-share"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="card-white">
-      <h2>About this page</h2>
-      <p class="text-center">
-        This page has been coded during the <a href=""http://lewagon.com"">FullStack program @LeWagon.</a> That was probably the best experience of my entire life.
-      </p>
-
-      <ul class="list-inline">
-        <li>
-          <a href=""><i class="fa fa-star"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fa fa-heart"></i></a>
-        </li>
-        <li>
-          <a href=""><i class="fa fa-share"></i></a>
-        </li>
-      </ul>
-    </div>
   </body>
 </html>
