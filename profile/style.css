@@ -34,6 +34,34 @@ a {
   color: #B0DAE2;
 }
 
+#sidebar {
+  background-color: #002957;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 130px;
+}
+#sidebar ul {
+  text-decoration: none;
+  font-size: 30px;
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+  line-height: 70px;
+}
+#sidebar a {
+  color: #003e7c;
+}
+
+#sidebar a:hover {
+  color: #ffffff;
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
 .card-white {
   background: white;
   padding: 30px;
